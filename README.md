@@ -1,16 +1,18 @@
-# Snigdha Portfolio
+# G Snigdha — Portfolio
 
-A responsive personal portfolio website built with HTML, CSS and JavaScript.
+This is the GitHub Pages portfolio for G Snigdha.
 
 ## Files
-- `index.html` — portfolio content
-- `style.css` — design and responsive layout
+- `index.html` — website content
+- `style.css` — responsive design
 - `script.js` — mobile navigation
-- `resume.pdf` — add your final resume here
+- `resume.pdf` — current resume
+- `assets/profile.jpg` — profile photo
+- `assets/certificates/` — uploaded certificates
 
-## Before publishing
-1. Replace `your-email@example.com` with your email.
-2. Replace the `#` LinkedIn and GitHub links with your actual profiles.
-3. Replace each project `#` with the correct GitHub/project URL.
-4. Put your resume PDF in this folder and name it `resume.pdf`.
-5. Review all project descriptions and dates.
+## Publish
+Repository: `G-Snigdha.github.io`
+GitHub Pages URL: `https://g-snigdha.github.io/`
+
+## Notes
+Project GitHub links were intentionally not added where no repository URL was supplied, so the website does not contain broken links.
