@@ -1,6 +1,22 @@
-const menuBtn = document.querySelector('.menu-btn');
-const nav = document.querySelector('.nav nav');
-menuBtn.addEventListener('click', () => nav.classList.toggle('open'));
-document.querySelectorAll('.nav nav a').forEach(link => {
-  link.addEventListener('click', () => nav.classList.remove('open'));
-});
+const menuButton = document.querySelector(".menu-toggle");
+const nav = document.querySelector("#nav");
+
+if (menuButton && nav) {
+
+  menuButton.addEventListener("click", () => {
+    nav.classList.toggle("open");
+  });
+
+  nav.querySelectorAll("a").forEach((link) => {
+
+    link.addEventListener("click", () => {
+      nav.classList.remove("open");
+    });
+
+  });
+
+}
+
+
+document.querySelector("#year").textContent =
+  new Date().getFullYear();
