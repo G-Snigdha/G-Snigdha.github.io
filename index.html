@@ -3,180 +3,758 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="G Snigdha — BCA graduate specializing in applied machine learning and data science.">
+
+  <meta name="description" content="G Snigdha - BCA Graduate | Data Science & Machine Learning Enthusiast | Software Developer">
+
   <title>G Snigdha | Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header class="nav">
-  <a class="logo" href="#home">G<span>.</span>SNIGDHA</a>
-  <button class="menu-btn" aria-label="Open navigation">☰</button>
-  <nav>
-    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
-    <a href="#experience">Experience</a><a href="#education">Education</a><a href="#contact">Contact</a>
-  </nav>
-</header>
 
-<main>
-<section id="home" class="hero">
-  <div class="hero-copy">
-    <p class="eyebrow">BCA Graduate · Applied Machine Learning · Data Science</p>
-    <h1>Hi, I'm <span>G Snigdha.</span></h1>
-    <p class="lead">I build practical machine-learning, data and software solutions — from data preprocessing and model evaluation to deployable applications.</p>
-    <div class="actions">
-      <a class="btn primary" href="#projects">Explore My Work</a>
-      <a class="btn ghost" href="resume.pdf" download>Download Resume</a>
-    </div>
-    <div class="links">
-      <a href="https://github.com/G-Snigdha" target="_blank" rel="noopener">GitHub ↗</a>
-      <a href="https://www.linkedin.com/in/g-snigdha/" target="_blank" rel="noopener">LinkedIn ↗</a>
-      <a href="mailto:snigdhagodavarthi744@gmail.com">Email ↗</a>
-    </div>
-  </div>
-  <div class="profile-wrap">
-    <div class="profile-ring">
-      <img src="assets/profile.jpg" alt="G Snigdha">
-    </div>
-    <div class="availability"><span></span> Open to opportunities</div>
-    <p class="profile-caption">Software · Data · ML · IoT</p>
-  </div>
-</section>
+  <!-- ================= NAVIGATION ================= -->
 
-<section id="about" class="section">
-  <p class="eyebrow">01 / About</p>
-  <h2>Building with curiosity and purpose.</h2>
-  <div class="about-grid">
-    <div>
-      <p class="large">I'm a BCA graduate from PES University, Bengaluru, specializing in applied machine learning and data science. Through internships and academic projects, I've worked across data preprocessing, exploratory analysis, feature engineering, model training, experiment tracking, deep learning and deployment.</p>
-      <p class="large">I enjoy turning real-world problems into practical technology — whether that's forecasting restaurant demand, detecting crop diseases, building an IoT irrigation system or making the web more accessible.</p>
-    </div>
-    <div class="about-card">
-      <div><span>Based in</span><strong>Bengaluru, India</strong></div>
-      <div><span>Education</span><strong>BCA · PES University</strong></div>
-      <div><span>Focus</span><strong>ML · Data · Software</strong></div>
-    </div>
-  </div>
-</section>
+  <header class="navbar">
 
-<section id="skills" class="section dark">
-  <p class="eyebrow">02 / Skills</p>
-  <h2>My technical toolkit.</h2>
-  <div class="skills">
-    <div class="skill"><h3>Languages</h3><p>Python · Java · SQL</p></div>
-    <div class="skill"><h3>Machine Learning</h3><p>Scikit-learn · XGBoost · Random Forest · Decision Trees · Logistic Regression</p></div>
-    <div class="skill"><h3>Deep Learning</h3><p>TensorFlow · Keras · CNNs · MobileNetV2 Transfer Learning</p></div>
-    <div class="skill"><h3>Data</h3><p>MySQL · Data Preprocessing · EDA · Feature Engineering</p></div>
-    <div class="skill"><h3>MLOps & Deployment</h3><p>MLflow · Streamlit · Model Management · GitHub</p></div>
-    <div class="skill"><h3>Development & Tools</h3><p>Flutter · Dart · HTML · Jupyter Notebook · Firebase · Android Studio</p></div>
-  </div>
-</section>
+    <a href="#home" class="brand">G.SNIGDHA</a>
 
-<section id="projects" class="section">
-  <p class="eyebrow">03 / Projects</p>
-  <h2>Selected work.</h2>
-  <div class="projects">
-    <article class="project featured">
-      <div class="project-num">01</div>
-      <div><span class="tag">IoT · Mobile · Precision Farming</span><h3>IoT-Driven Smart Irrigation System</h3>
-      <p>Designed a sensor-based irrigation system using soil moisture and temperature data to automate watering decisions and reduce water wastage. Built a companion mobile app for remote field monitoring and system control.</p>
-      <div class="chips"><span>ESP32</span><span>Sensors</span><span>Flutter</span><span>Firebase</span></div></div>
-    </article>
-    <article class="project">
-      <div class="project-num">02</div>
-      <div><span class="tag">Deep Learning · Computer Vision</span><h3>Crop Disease Detection</h3>
-      <p>Built a CNN-based image classification model using TensorFlow/Keras and the PlantVillage dataset. Applied MobileNetV2 transfer learning and image preprocessing, then designed an inference pipeline for new leaf images.</p>
-      <div class="chips"><span>Python</span><span>TensorFlow/Keras</span><span>CNN</span><span>MobileNetV2</span></div></div>
-    </article>
-    <article class="project">
-      <div class="project-num">03</div>
-      <div><span class="tag">Forecasting · Data Science</span><h3>Restaurant Demand Forecasting & Inventory Optimization</h3>
-      <p>Built a demand forecasting model using Python, XGBoost and Scikit-learn to predict restaurant sales from historical data. Used EDA and feature engineering to surface patterns and translate forecasts into inventory-management insights.</p>
-      <div class="chips"><span>Python</span><span>XGBoost</span><span>Scikit-learn</span><span>EDA</span></div></div>
-    </article>
-    <article class="project">
-      <div class="project-num">04</div>
-      <div><span class="tag">Accessibility · Web</span><h3>Accessible Web Platform for Low-Literacy Users</h3>
-      <p>Designed a website with simplified layouts, icon-based navigation and voice guidance to improve digital accessibility. Added multilingual support to broaden usability across language groups.</p>
-      <div class="chips"><span>Web</span><span>Accessibility</span><span>Voice Guidance</span><span>Multilingual</span></div></div>
-    </article>
-    <article class="project">
-      <div class="project-num">05</div>
-      <div><span class="tag">Machine Learning</span><h3>MLflow Wine Classification</h3>
-      <p>Built an end-to-end MLflow pipeline for experiment tracking, model versioning and management. Compared Logistic Regression, Random Forest and Decision Tree classifiers and served predictions through Streamlit.</p>
-      <div class="chips"><span>MLflow</span><span>Scikit-learn</span><span>Streamlit</span><span>Python</span></div></div>
-    </article>
-  </div>
-</section>
+    <button class="menu-toggle" aria-label="Open menu">
+      ☰
+    </button>
 
-<section id="experience" class="section dark">
-  <p class="eyebrow">04 / Experience</p>
-  <h2>Hands-on industry experience.</h2>
-  <div class="timeline">
-    <div class="timeline-item">
-      <div class="date">FEB 2026 — MAY 2026</div>
-      <h3>AI/ML Intern · Cynaris Solutions</h3>
-      <p>Built and deployed an end-to-end MLflow pipeline covering experiment tracking, model versioning and model management for a wine classification use case. Compared Logistic Regression, Random Forest and Decision Tree classifiers and developed a Streamlit dashboard for real-time predictions.</p>
-      <a class="small-link" href="assets/certificates/cynaris-certificate.jpg" target="_blank">View certificate ↗</a>
-    </div>
-    <div class="timeline-item">
-      <div class="date">MAR 2026 — JUN 2026</div>
-      <h3>Data Science & Machine Learning Intern · Infotact Solutions</h3>
-      <p>Worked on Crop Disease Detection using Deep Learning and AI-Based Restaurant Demand Forecasting & Inventory Optimization, covering preprocessing, EDA, feature engineering, deep learning, forecasting and model evaluation.</p>
-      <a class="small-link" href="assets/certificates/infotact-internship.pdf" target="_blank">View certificate ↗</a>
-    </div>
-    <div class="timeline-item">
-      <div class="date">2025</div>
-      <h3>Data Science Training & Internship · Acmegrade</h3>
-      <p>Completed data science training and internship experience as listed in my resume and certification records.</p>
-      <a class="small-link" href="assets/certificates/data-science-internship.pdf" target="_blank">View certificate ↗</a>
-    </div>
-  </div>
-</section>
+    <nav id="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
-<section id="education" class="section">
-  <p class="eyebrow">05 / Education & Certifications</p>
-  <h2>Learning never stops.</h2>
-  <div class="edu-grid">
-    <div class="edu">
-      <span>2023 — 2026</span><h3>Bachelor of Computer Applications</h3><p>PES University · Bengaluru</p>
-    </div>
-    <div class="edu">
-      <span>2021 — 2023</span><h3>Class 12</h3><p>Sri Vidyaniketan PU College · Gangavathi</p>
-    </div>
-    <div class="edu">
-      <span>2021</span><h3>Class 10</h3><p>Central Public School · Karatagi</p>
-    </div>
-  </div>
-  <div class="cert-grid">
-    <a class="cert" href="assets/certificates/tutedude-machine-learning.pdf" target="_blank"><span>Certificate</span><strong>Machine Learning</strong><small>Tutedude · 15 Jul 2025</small><b>View ↗</b></a>
-    <a class="cert" href="assets/certificates/infotact-internship.pdf" target="_blank"><span>Internship</span><strong>Data Science & Machine Learning</strong><small>Infotact Solutions · 2026</small><b>View ↗</b></a>
-    <a class="cert" href="assets/certificates/cynaris-certificate.jpg" target="_blank"><span>Internship</span><strong>AI/ML Internship</strong><small>Cynaris Solutions · Feb–May 2026</small><b>View ↗</b></a>
-    <div class="cert"><span>Hackathons</span><strong>MHacks 3.0 · Init</strong><small>Problem Solving / Technical Problem Solving</small><b>2024 · 2025</b></div>
-  </div>
-</section>
+  </header>
 
-<section id="contact" class="contact">
-  <div class="contact-inner">
-    <p class="eyebrow">06 / Contact</p>
-    <h2>Let's build something useful.</h2>
-    <p>I'm open to entry-level opportunities and projects in software development, data science, machine learning and related technology areas.</p>
-    <div class="contact-actions">
-      <a class="btn primary" href="mailto:snigdhagodavarthi744@gmail.com">Email Me</a>
-      <a class="btn ghost" href="tel:+916366613969">Call</a>
-    </div>
-    <div class="contact-links">
-      <a href="mailto:snigdhagodavarthi744@gmail.com">snigdhagodavarthi744@gmail.com</a>
-      <a href="https://github.com/G-Snigdha" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://www.linkedin.com/in/g-snigdha/" target="_blank" rel="noopener">LinkedIn</a>
-    </div>
-  </div>
-</section>
-</main>
 
-<footer>© 2026 G Snigdha · Built with HTML, CSS & JavaScript</footer>
-<script src="script.js"></script>
+  <!-- ================= MAIN ================= -->
+
+  <main>
+
+    <!-- HERO -->
+
+    <section id="home" class="hero">
+
+      <div class="hero-text">
+
+        <p class="eyebrow">
+          BCA GRADUATE · DATA SCIENCE · MACHINE LEARNING
+        </p>
+
+        <h1>
+          Hi, I'm <span>G Snigdha.</span>
+        </h1>
+
+        <p class="hero-description">
+          BCA graduate with hands-on experience in data science,
+          machine learning, software development and IoT-based
+          applications. I enjoy turning ideas into practical,
+          user-focused solutions.
+        </p>
+
+        <div class="hero-buttons">
+
+          <a href="#projects" class="btn primary">
+            Explore My Work
+          </a>
+
+          <a
+            href="resume.pdf"
+            target="_blank"
+            rel="noopener"
+            class="btn secondary"
+          >
+            Download Resume
+          </a>
+
+        </div>
+
+        <div class="social-links">
+
+          <a
+            href="https://github.com/G-Snigdha"
+            target="_blank"
+            rel="noopener"
+          >
+            GitHub ↗
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/g-snigdha/"
+            target="_blank"
+            rel="noopener"
+          >
+            LinkedIn ↗
+          </a>
+
+          <a href="mailto:snigdhagodavarthi744@gmail.com">
+            Email ↗
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- PROFILE PHOTO -->
+
+      <div class="hero-photo-wrap">
+
+        <img
+          src="assets/profile.jpg"
+          alt="G Snigdha"
+          class="hero-photo"
+        >
+
+        <div class="availability">
+          ● Open to opportunities
+        </div>
+
+        <p>
+          Software · Data · ML · IoT
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section id="about" class="section">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">
+          ABOUT ME
+        </p>
+
+        <h2>
+          A curious builder who enjoys learning by creating.
+        </h2>
+
+      </div>
+
+
+      <div class="about-grid">
+
+        <div>
+
+          <p>
+            I am G Snigdha, a BCA graduate from PES University,
+            Bengaluru. My interests span data analysis, machine
+            learning, software development, mobile applications
+            and IoT.
+          </p>
+
+          <p>
+            Through academic projects and internships, I have
+            worked with Python, Java, SQL, machine-learning
+            frameworks and Flutter. I am looking for opportunities
+            where I can learn, contribute and grow as a technology
+            professional.
+          </p>
+
+        </div>
+
+
+        <div class="info-card">
+
+          <div>
+            <strong>Location</strong>
+            <span>Bengaluru, India</span>
+          </div>
+
+          <div>
+            <strong>Education</strong>
+            <span>BCA · PES University</span>
+          </div>
+
+          <div>
+            <strong>Graduated</strong>
+            <span>2026</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+
+    <section id="skills" class="section alt">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">
+          SKILLS
+        </p>
+
+        <h2>
+          Technologies I work with.
+        </h2>
+
+      </div>
+
+
+      <div class="skills-grid">
+
+        <article class="skill-card">
+          <h3>Programming</h3>
+          <p>
+            Java · Python · C · Dart
+          </p>
+        </article>
+
+        <article class="skill-card">
+          <h3>Web</h3>
+          <p>
+            HTML · WordPress · Drupal · Magento
+          </p>
+        </article>
+
+        <article class="skill-card">
+          <h3>Database</h3>
+          <p>
+            SQL · MySQL · DBMS
+          </p>
+        </article>
+
+        <article class="skill-card">
+          <h3>Mobile</h3>
+          <p>
+            Flutter · Android Studio · Firebase
+          </p>
+        </article>
+
+        <article class="skill-card">
+          <h3>Data & ML</h3>
+          <p>
+            Pandas · Scikit-learn · TensorFlow/Keras ·
+            XGBoost · LightGBM · Random Forest · MLflow
+          </p>
+        </article>
+
+        <article class="skill-card">
+          <h3>Tools</h3>
+          <p>
+            Git · GitHub · Jupyter Notebook · Google Colab
+          </p>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+
+    <section id="projects" class="section">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">
+          PROJECTS
+        </p>
+
+        <h2>
+          Selected work.
+        </h2>
+
+      </div>
+
+
+      <div class="projects-grid">
+
+        <article class="project-card">
+
+          <span class="project-number">
+            01
+          </span>
+
+          <h3>
+            IoT-Driven Smart Irrigation System
+          </h3>
+
+          <p>
+            IoT-based precision-farming solution designed to
+            optimize water usage using sensors, ESP32, Firebase
+            and a Flutter mobile application.
+          </p>
+
+          <div class="tags">
+            <span>ESP32</span>
+            <span>Flutter</span>
+            <span>Firebase</span>
+            <span>IoT</span>
+          </div>
+
+        </article>
+
+
+        <article class="project-card">
+
+          <span class="project-number">
+            02
+          </span>
+
+          <h3>
+            Crop Disease Detection
+          </h3>
+
+          <p>
+            Deep-learning computer-vision project for detecting
+            plant diseases from leaf images using the PlantVillage
+            dataset.
+          </p>
+
+          <div class="tags">
+            <span>Python</span>
+            <span>TensorFlow</span>
+            <span>Computer Vision</span>
+          </div>
+
+        </article>
+
+
+        <article class="project-card">
+
+          <span class="project-number">
+            03
+          </span>
+
+          <h3>
+            Restaurant Demand Forecasting
+          </h3>
+
+          <p>
+            Time-series forecasting project focused on restaurant
+            demand prediction and inventory optimization using
+            historical sales data.
+          </p>
+
+          <div class="tags">
+            <span>Python</span>
+            <span>Forecasting</span>
+            <span>XGBoost</span>
+            <span>LightGBM</span>
+          </div>
+
+        </article>
+
+
+        <article class="project-card">
+
+          <span class="project-number">
+            04
+          </span>
+
+          <h3>
+            Food Delivery Time Prediction
+          </h3>
+
+          <p>
+            Machine-learning project using delivery, traffic,
+            weather, ratings and order-related features to
+            predict delivery time.
+          </p>
+
+          <div class="tags">
+            <span>Python</span>
+            <span>Scikit-learn</span>
+            <span>Random Forest</span>
+          </div>
+
+        </article>
+
+
+        <article class="project-card">
+
+          <span class="project-number">
+            05
+          </span>
+
+          <h3>
+            Accessible Web for Low-Literacy Users
+          </h3>
+
+          <p>
+            Accessibility-focused web concept using voice
+            guidance, visual icons and multilingual support
+            to make digital content easier to use.
+          </p>
+
+          <div class="tags">
+            <span>Web</span>
+            <span>Accessibility</span>
+            <span>Voice</span>
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- EXPERIENCE -->
+
+    <section id="experience" class="section alt">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">
+          EXPERIENCE
+        </p>
+
+        <h2>
+          Internships & practical experience.
+        </h2>
+
+      </div>
+
+
+      <div class="timeline">
+
+        <article class="timeline-item">
+
+          <div class="timeline-dot"></div>
+
+          <div>
+
+            <p class="date">
+              FEB 2026 — MAY 2026
+            </p>
+
+            <h3>
+              AI/ML Intern · Cynaris Solutions Pvt. Ltd.
+            </h3>
+
+            <p>
+              Completed an AI/ML internship program involving
+              practical machine-learning work and project
+              development.
+            </p>
+
+            <div class="tags">
+              <span>AI/ML</span>
+              <span>Python</span>
+              <span>Machine Learning</span>
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <article class="timeline-item">
+
+          <div class="timeline-dot"></div>
+
+          <div>
+
+            <h3>
+              Data Science / AI-ML Internship · Infotact Solutions
+            </h3>
+
+            <p>
+              Worked on projects including crop disease detection
+              using deep learning and AI demand forecasting and
+              inventory optimization for restaurants.
+            </p>
+
+            <div class="tags">
+              <span>Python</span>
+              <span>TensorFlow/Keras</span>
+              <span>Forecasting</span>
+            </div>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- EDUCATION -->
+
+    <section id="education" class="section">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">
+          EDUCATION
+        </p>
+
+        <h2>
+          Academic background.
+        </h2>
+
+      </div>
+
+
+      <div class="education-card">
+
+        <div>
+
+          <p class="date">
+            2023 — 2026
+          </p>
+
+          <h3>
+            Bachelor of Computer Applications (BCA)
+          </h3>
+
+          <p>
+            PES University, Bengaluru
+          </p>
+
+        </div>
+
+
+        <div>
+
+          <p class="date">
+            2021 — 2023
+          </p>
+
+          <h3>
+            Class 12 / PUC
+          </h3>
+
+          <p>
+            Sri Vidyaniketan PU College
+          </p>
+
+        </div>
+
+
+        <div>
+
+          <p class="date">
+            2021
+          </p>
+
+          <h3>
+            Class 10 / SSLC
+          </h3>
+
+          <p>
+            Central Public School
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CERTIFICATIONS -->
+
+    <section id="certifications" class="section alt">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">
+          CERTIFICATIONS
+        </p>
+
+        <h2>
+          Certificates & credentials.
+        </h2>
+
+      </div>
+
+
+      <div class="cert-grid">
+
+        <article class="cert-card">
+
+          <div class="cert-icon">
+            ✦
+          </div>
+
+          <h3>
+            AI/ML Internship
+          </h3>
+
+          <p>
+            Cynaris Solutions Pvt. Ltd.
+          </p>
+
+          <a
+            href="assets/certificates/cynaris-certificate.jpg"
+            target="_blank"
+            rel="noopener"
+          >
+            View Certificate ↗
+          </a>
+
+        </article>
+
+
+        <article class="cert-card">
+
+          <div class="cert-icon">
+            ✦
+          </div>
+
+          <h3>
+            Data Science Internship
+          </h3>
+
+          <p>
+            Infotact Solutions
+          </p>
+
+          <a
+            href="assets/certificates/data-science-internship.pdf"
+            target="_blank"
+            rel="noopener"
+          >
+            View Certificate ↗
+          </a>
+
+        </article>
+
+
+        <article class="cert-card">
+
+          <div class="cert-icon">
+            ✦
+          </div>
+
+          <h3>
+            Internship Certificate
+          </h3>
+
+          <p>
+            Infotact Solutions
+          </p>
+
+          <a
+            href="assets/certificates/infotact-internship.pdf"
+            target="_blank"
+            rel="noopener"
+          >
+            View Certificate ↗
+          </a>
+
+        </article>
+
+
+        <article class="cert-card">
+
+          <div class="cert-icon">
+            ✦
+          </div>
+
+          <h3>
+            Machine Learning
+          </h3>
+
+          <p>
+            Tutedude
+          </p>
+
+          <a
+            href="assets/certificates/tutedude-machine-learning.pdf"
+            target="_blank"
+            rel="noopener"
+          >
+            View Certificate ↗
+          </a>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="section contact-section">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">
+          CONTACT
+        </p>
+
+        <h2>
+          Let's connect.
+        </h2>
+
+        <p>
+          I'm open to opportunities where I can learn,
+          contribute and grow.
+        </p>
+
+      </div>
+
+
+      <div class="contact-actions">
+
+        <a
+          class="btn primary"
+          href="mailto:snigdhagodavarthi744@gmail.com"
+        >
+          Email Me
+        </a>
+
+        <a
+          class="btn secondary"
+          href="https://www.linkedin.com/in/g-snigdha/"
+          target="_blank"
+          rel="noopener"
+        >
+          LinkedIn
+        </a>
+
+        <a
+          class="btn secondary"
+          href="https://github.com/G-Snigdha"
+          target="_blank"
+          rel="noopener"
+        >
+          GitHub
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <p>
+      © <span id="year"></span> G Snigdha.
+      Built with HTML, CSS & JavaScript.
+    </p>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
 </body>
 </html>
